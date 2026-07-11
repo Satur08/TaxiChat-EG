@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="yellowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#yellowGrad)"/>
+  
+  <!-- Subtle circular accent -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#ffffff" stroke-width="8" stroke-opacity="0.15"/>
+  
+  <!-- Taxi Car Base Shape -->
+  <path d="M120 330 C120 310, 140 290, 180 280 L220 200 C230 180, 250 170, 270 170 L340 170 C360 170, 380 180, 390 200 L430 280 C470 290, 490 310, 490 330 C490 350, 470 360, 450 360 L440 360 L440 400 C440 411, 431 420, 420 420 L390 420 C379 420, 370 411, 370 400 L370 360 L242 360 L242 400 C242 411, 233 420, 222 420 L192 420 C181 420, 172 411, 172 400 L172 360 L160 360 C140 360, 120 350, 120 330 Z" fill="#0f172a" />
+  
+  <!-- Windshield -->
+  <path d="M228 215 L245 275 L367 275 L384 215 C380 205, 370 200, 355 200 L257 200 C242 200, 232 205, 228 215 Z" fill="#ffffff" />
+  
+  <!-- Left & Right Headlights -->
+  <circle cx="165" cy="325" r="14" fill="#fbbf24" />
+  <circle cx="447" cy="325" r="14" fill="#fbbf24" />
+  
+  <!-- Dynamic Taxi Roof Sign -->
+  <rect x="226" y="115" width="160" height="42" rx="10" fill="#ffffff" stroke="#0f172a" stroke-width="8" />
+  <text x="306" y="145" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="24" fill="#0f172a" text-anchor="middle" letter-spacing="2">TAXI</text>
+</svg>

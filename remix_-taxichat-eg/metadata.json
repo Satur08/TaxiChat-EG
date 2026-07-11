@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Taxi GE",
+  "description": "Aplicación para solicitar taxis por WhatsApp en Guinea Ecuatorial, conectando pasajeros con conductores locales.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Remix: Taxi GE",
+  "short_name": "Taxi GE",
+  "description": "Aplicación para solicitar taxis por WhatsApp en Guinea Ecuatorial, conectando pasajeros con conductores locales.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#f59e0b",
+  "orientation": "portrait-primary",
+  "categories": ["travel", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    },
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ]
+}
